@@ -10,13 +10,14 @@ width: 100;
 background:url(light.jpg);
 background-position: center;
 background-size: cover;
-height: 130vh; 
+height: 100vh; 
 }
 
 .navbar{
-    width: 200px;
+    width: 150px;
     height: 75px;
     margin: auto;
+    text-align: left;
 }
 
 .icon{
@@ -90,7 +91,7 @@ ul li a:hover{
  .btn{
     width: 100px;
     height: 40px;
-    background: #00ffff;
+    background: #ff0000;
     border: #ff7200;
     margin-top: 15px;
     color:rgb(255, 255, 255);
@@ -215,11 +216,13 @@ ul li a:hover{
     background: #ff7200;
     border: none;
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 10px;
     cursor: pointer;
     color: #fff;
     transition: 0.4s ease;
+    align-items: flex-end;
+    text-align: center;
 }
 
 .btn:hover{
@@ -264,7 +267,7 @@ ul li a:hover{
 }
 
 .icon ion-icon:hover{
-    color: #ff3
+    color: rgb(255, 160, 51)
 }
 .icon ion-icon::backdrop{
     color: #ff6600;
